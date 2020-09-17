@@ -8,7 +8,7 @@ The program provides an interactive command line method for accepting inputs fro
 
 The program takes in the following inputs :  
 1) Map size :  
-  The user is prompted to add the map by providing the size in the following format : <rows> <columns>  
+  The user is prompted to add the map by providing the size in the following format : **_rows columns_**  
   Example :  
   ```
   Enter the map dimensions (for demostration purposes, the boundary condition for map size is (50,50) : 20 20 
@@ -20,19 +20,19 @@ The program takes in the following inputs :
   Enter the number of obstacles : 5
   ```  
 3) Obstacle Coordinates  
-  The user is prompted to enter the obstacle coordinates in the following format : <row number> <colummn number>  
+  The user is prompted to enter the obstacle coordinates in the following format : **_row_number column_number_**  
   Example:  
   ```
   Enter obstacle 1 : 2 0
   ```
 4) Start Position  
-  The user is prompted to enter the start position in the following format : <row number> <column number>  
+  The user is prompted to enter the start position in the following format : **_row_number column_number_**  
   Example:  
   ```
   Enter the start position : 5 4
   ```  
 5) Goal Position
-  The user is prompted to enter the goal position in the following format : <row number> <column number>  
+  The user is prompted to enter the goal position in the following format : **_row_number column_number_**  
   Example  
   ```
   Enter the goal position : 2 3
