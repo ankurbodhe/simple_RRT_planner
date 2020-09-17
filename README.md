@@ -1,5 +1,5 @@
 # Simple RRT Planner
-#### Author : Ankur Bodhe
+#### Author : Ankur Bodhe ankurbodhe@gmail.com
 
 ---
 This is program is a simple RRT planner that takes in an input map with dimensions from the user, the number of obstacles and obstacle coordinates and the start and goal positions.
