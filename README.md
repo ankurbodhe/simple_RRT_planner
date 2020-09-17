@@ -2,14 +2,21 @@
 #### Author : Ankur Bodhe
 
 ---
-
 This is program is a simple RRT planner that takes in an input map with dimensions from the user, the number of obstacles and obstacle coordinates and the start and goal positions.
 
 The program provides an interactive command line method for accepting inputs from the user.
 
 The program outputs the following :
 
-1) A grid map with the path, obstacles, start and goal positions. The color legend for the visualization is as follows :  a) Green : Path  b) Red   : Start Position  c) Blue  : End Position  d) Black : Obstacles
+A grid map with the path, obstacles, start and goal positions. The color legend for the visualization is as follows:  
+a) Green : Path  
+b) Red   : Start Position  
+c) Blue  : End Position  
+d) Black : Obstacles  
+e) Brown : Boundary for the map
+
+Limitation :  
+For demonstation and visualization purposes, the map size is restricted to a grid of 50x50. However, the algorithm runs for a map of any size (with different visualization schemes)
 
 When a path cannot be generated, the program prints the following on the shell command line :
 ```
