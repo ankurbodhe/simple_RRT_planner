@@ -57,7 +57,7 @@ User inputs:
     ```  
    
    Please use the following reference for providing the coordinated for the map for obstacles, start and goal position.  
-   
+   ![Image alt text](./grid.png)
    
    Program outputs  
   
