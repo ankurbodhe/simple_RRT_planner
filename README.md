@@ -73,19 +73,22 @@ $> ****** path not found *******
 
   Clone the repository
   ```
-	git clone https://github.com/ankurbodhe/simple_RRT_planner.git
+	    git clone https://github.com/ankurbodhe/simple_RRT_planner.git
   ```
+  
   Install openGL and GLUT dependancy
   if you are using Ubuntu system, use the following command
   ```
 	    $> sudo apt-get install freeglut3-dev
   ```
   for other OS, please refer to the following link : https://www.prinmath.com/csci5229/misc/install.html  
+  
   Build the code  
   ```
 	    $> make
   ```  
+  
   Execute the program
   ```
-      $> ./rrt_planner
+         $> ./rrt_planner
   ```
