@@ -4,7 +4,7 @@
 
 CPP = g++
 SDLFLAGS = sdl-config --cflags --libs
-LIBS = -lGL -lGLU -lXi -lXmu -lglut -lX11
+LIBS = -lGL -lGLU -lglut
 SOURCES = src/rrt.cpp src/map.cpp src/main.cpp
 DEST = rrt_planner
 

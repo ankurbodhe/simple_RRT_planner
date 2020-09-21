@@ -192,7 +192,7 @@ Map RRT::planner(Map m, int *start, int *end, int max_iterations) {
 		
 
 		
-		cout <<"\n"<< i <<"  :  "<< nodelist.size() << "\n";
+		// cout <<"\n"<< i <<"  :  "<< nodelist.size() << "\n";
 
 		// check if the newly created node goes outside the map
 
@@ -229,11 +229,11 @@ Map RRT::planner(Map m, int *start, int *end, int max_iterations) {
 
 
 		nodelist.push_back(newnode);
-		cout <<"\n"<<euclidean_dist((*newnode).pos, end)<<"\n";
+		//cout <<"\n"<<euclidean_dist((*newnode).pos, end)<<"\n";
 						
 		// check if the new node distance from the goal is less than step size
 		if (euclidean_dist((*newnode).pos, end) >= 1 && euclidean_dist((*newnode).pos, end) <= 1.5) {
-			cout << "\nAlmost there\n";
+			//cout << "\nAlmost there\n";
 			//add the goal state to the final path vector
 			path_point.push_back(end[0]);
 			path_point.push_back(end[1]);
@@ -273,14 +273,14 @@ Map RRT::planner(Map m, int *start, int *end, int max_iterations) {
 		cout <<" **** Path not found *****";
 	}
 
-	for (int j = 0; j < nodelist.size(); j++) {
-		cout << "\n" << (*nodelist[j]).pos[0] << " , " << (*nodelist[j]).pos[1] << (*nodelist[j]).pos[2];	
-	}
+	// for (int j = 0; j < nodelist.size(); j++) {
+	// 	cout << "\n" << (*nodelist[j]).pos[0] << " , " << (*nodelist[j]).pos[1] << (*nodelist[j]).pos[2];	
+	// }
 
 
-	cout << "\n------Final path-------";
+	cout << "\n------Final path-------\n";
 	for (int k = 0; k < final_path.size(); k++) {
-		cout << "\n" << "(" << final_path[k][0]<< "," << final_path[k][1] << ")";
+		cout <<"(" << final_path[k][0]<< "," << final_path[k][1] << ")" <<"\n";
 	}
 
 	
